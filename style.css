@@ -347,7 +347,16 @@ section{
     width: 400px;
     margin: auto 0;
 }
-
+.details-container p{
+    text-align: left; /* Ensure text alignment */
+    margin: 0; /* Remove default margin */
+    padding: 0 1rem; /* Add padding for spacing */
+    line-height: 1.5; /* Adjust line height for readability */
+    size: 2rem;
+}
+.details-container .space{
+    margin: 1rem 0;
+}
 /* Experience section  */
 
 #experience
